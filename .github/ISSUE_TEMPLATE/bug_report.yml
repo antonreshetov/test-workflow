@@ -11,8 +11,7 @@ body:
     id: describe
     attributes:
       label: Describe the bug
-      description: A clear and concise description of what the bug is
-      placeholder: Tell us what happened
+      description: A clear and concise description of what the bug is. If applicable, add screenshots to help explain your problem.
     validations:
       required: true
   - type: textarea
@@ -20,7 +19,6 @@ body:
     attributes:
       label: To reproduce
       description: Steps to reproduce the behavior
-      placeholder: How to reproduce the bug
       value: |
         1. Go to ...
         2. Click on ...
@@ -32,16 +30,18 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
-      placeholder: e.g. 2.0.0, 2.0.0-beta.6
+      description: What version of massCode are you running?
+      placeholder: e.g. 2.0.0, 2.1.0-beta.6
     validations:
       required: true
   - type: input
-    id: OS
+    id: os
     attributes:
       label: OS
       description: What version of OS are you using?
       placeholder: e.g. macOS Monterey 12.1, Windows 10
+    validations:
+      required: true
   - type: checkboxes
     id: validation
     attributes:
