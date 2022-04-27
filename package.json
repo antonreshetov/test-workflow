@@ -1,0 +1,23 @@
+{
+  "name": "test-workflow",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "bumpp -c 'build: release v' -t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonreshetov/test-workflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonreshetov/test-workflow/issues"
+  },
+  "homepage": "https://github.com/antonreshetov/test-workflow#readme",
+  "devDependencies": {
+    "bumpp": "^7.1.1"
+  }
+}
